@@ -16,11 +16,10 @@ public class UserResource {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/getUsers")
+    @GetMapping("/user")
     public User getUsers(){
         return  userService.getUsers();
     }
-
 
 
 
